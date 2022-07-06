@@ -1,0 +1,27 @@
+Astronaut
+--------
+name: string
+year: int
+group: int
+status: string
+birthDate: date
+birthPlace: string
+gender: string
+almaMater: string
+undergraduateMajor: string
+graduateMajor: string
+militaryRank: string
+militaryBrance: string
+flight: int
+flightHour: int
+walk: int
+walkHour: int
+mission: string
+deathDate: date
+deathMission: string
+--------
+init(self,name,flightHour,status): object
+gt(self,other): boolean
+ge(self,other): boolean
+eq(self,other): boolean
+str(self):str
